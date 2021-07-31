@@ -143,11 +143,16 @@ export default {
 
   methods: {
     scrollMeTo(refName) {
-      const element = this.$refs[refName];
-        if (element) {
-        element.scrollIntoView({behavior: 'smooth'})
-      }
+      var _this = this
+      setTimeout(function(){
+          const element = _this.$refs[refName];
+          if (element) {
+          element.scrollIntoView({behavior: 'smooth'})
+        }
+      }, 200);
     },
+
+    
   },
 }
 </script>
