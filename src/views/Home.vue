@@ -103,7 +103,8 @@
             <button
               type="button"
               class="btn btn-outline-primary d-flex justify-content-center align-items-center"
-            >FEEDBACK
+            >
+              <a href="mailto:conversadoria@unilever.com.br">FEEDBACK</a>
             </button>
           </div>
         </div>
@@ -252,6 +253,11 @@ export default {
           line-height: 23px;
           width: 240px;
           margin: 10px 0;
+
+          a {
+            color: #ffffff;
+            text-decoration: none;
+          }
         }
       }
     }

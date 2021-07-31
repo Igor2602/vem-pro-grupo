@@ -6,7 +6,9 @@
           <h1>Manifesto</h1>
         </div>
       </div>
-      <img src="@/assets/images/video.png">
+      <div class="wrapper-video d-flex justify-content-center align-items-center">
+        <iframe src="https://www.youtube.com/embed/KxYJy1xYKcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </template>
@@ -26,6 +28,8 @@ export default {
   .manifest-content {
     max-width: 1120px;
     margin: 0 auto;
+    height: 100%;
+    max-height: 630px;
 
     h1 {
       margin-bottom: 65px;
@@ -34,8 +38,24 @@ export default {
       color: #ffffff;
     }
 
-    img {
-      width: 100%;
+    .wrapper-video  {
+      iframe {
+        width: 1120px;
+        height: 630px;
+      }
+    }
+  }
+}
+
+@media(max-width: 1200px) {
+  .manifest-component-wrapper {
+    .manifest-content {
+      .wrapper-video {
+        iframe {
+          width: 760px;
+          height: 460px;
+        }
+      }
     }
   }
 }
@@ -49,6 +69,26 @@ export default {
     .manifest-content {
       h1 {
         font-size: 40px;
+      }
+
+      .wrapper-video {
+        iframe {
+          width: 760px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 576px) {
+  .manifest-component-wrapper {
+    .manifest-content {
+      .wrapper-video {
+        iframe {
+          width: 760px;
+          height: 200px;
+        }
       }
     }
   }

@@ -10,6 +10,7 @@
       >
         <li class="nav-item" role="presentation">
           <div
+            @click="scrollMeTo('people')"
             class="nav-link"
             id="people-tab"
             data-bs-toggle="tab"
@@ -23,11 +24,11 @@
         </li>
         <li class="nav-item" role="presentation">
           <div
+            @click="scrollMeTo('customers')"
             class="nav-link"
             id="customers-tab"
             data-bs-toggle="tab"
             data-bs-target="#customers"
-            type="button"
             role="tab"
             aria-controls="customers"
             aria-selected="false"
@@ -37,11 +38,12 @@
         </li>
         <li class="nav-item" role="presentation">
           <div
+            @click="scrollMeTo('resolve')"
             class="nav-link"
             id="resolve-tab"
             data-bs-toggle="tab"
             data-bs-target="#resolve"
-            type="button" role="tab"
+            role="tab"
             aria-controls="resolve"
             aria-selected="false"
           >
@@ -51,11 +53,12 @@
 
         <li class="nav-item" role="presentation">
           <div
+            @click="scrollMeTo('experience')"
             class="nav-link"
             id="experience-tab"
             data-bs-toggle="tab"
             data-bs-target="#experience"
-            type="button" role="tab"
+            role="tab"
             aria-controls="experience"
             aria-selected="false"
           >
@@ -70,6 +73,7 @@
           id="people"
           role="tabpanel"
           aria-labelledby="people-tab"
+          ref="people"
         >
           <People />
         </div>
@@ -79,6 +83,7 @@
           id="customers"
           role="tabpanel"
           aria-labelledby="customers-tab"
+          ref="customers"
         >
           <Customers />
         </div>
@@ -88,6 +93,7 @@
           id="resolve"
           role="tabpanel"
           aria-labelledby="resolve-tab"
+          ref="resolve"
         >
           <Resolve />
         </div>
@@ -97,6 +103,7 @@
           id="experience"
           role="tabpanel"
           aria-labelledby="experience-tab"
+          ref="experience"
         >
           <Efficiency />
         </div>
@@ -132,6 +139,15 @@ export default {
     Customers: () => import('@/components/pillars/Customers.vue'),
     Resolve: () => import('@/components/pillars/Resolve.vue'),
     Efficiency: () => import('@/components/pillars/Efficiency.vue'),
+  },
+
+  methods: {
+    scrollMeTo(refName) {
+      const element = this.$refs[refName];
+        if (element) {
+        element.scrollIntoView({behavior: 'smooth'})
+      }
+    },
   },
 }
 </script>
