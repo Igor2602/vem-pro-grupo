@@ -45,6 +45,12 @@ export default {
     background: url('../assets/images/bg/bg-4-mobile.jpg') top center no-repeat;
     height: 100%;
     padding : 255px 20px 50px;
+
+    .manifest-content {
+      h1 {
+        font-size: 40px;
+      }
+    }
   }
 }
 </style>

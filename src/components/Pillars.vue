@@ -98,7 +98,7 @@
           role="tabpanel"
           aria-labelledby="experience-tab"
         >
-          <Experience />
+          <Efficiency />
         </div>
       </div>
 
@@ -131,7 +131,7 @@ export default {
     People: () => import('@/components/pillars/People.vue'),
     Customers: () => import('@/components/pillars/Customers.vue'),
     Resolve: () => import('@/components/pillars/Resolve.vue'),
-    Experience: () => import('@/components/pillars/Experience.vue'),
+    Efficiency: () => import('@/components/pillars/Efficiency.vue'),
   },
 }
 </script>
@@ -169,7 +169,7 @@ export default {
     }
 
     .list-icons {
-      margin-top: 15px;
+      margin-top: 75px;
       padding: 0;
       li {
         list-style: none;

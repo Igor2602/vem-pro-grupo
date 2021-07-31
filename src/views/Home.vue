@@ -52,23 +52,16 @@
       </div>
 
       <div class="home-footer-wrapper">
-        <p>
-          Queremos convidar você a conversar, participar e acompanhar esse novo momento da área de CD. Aqui, você vai saber tudo sobre nossos pilares estratégicos, nossas ações de transformação
-          e principalmente acompanhar a evolução de
-          cada uma delas.<br><br>
+       <div class="home-footer-content">
+          <p>
+            Queremos convidar você a conversar, participar e acompanhar esse novo momento da área de CD. Aqui, você vai saber tudo sobre nossos pilares estratégicos, nossas ações de transformação
+            e principalmente acompanhar a evolução de
+            cada uma delas.<br><br>
 
-          Afinal, não basta falar, temos que fazer ;)
-          Vamos?
-        </p>
-
-        <p>
-          Queremos convidar você a conversar, participar e acompanhar esse novo momento da área de CD. Aqui, você vai saber tudo sobre nossos pilares estratégicos, nossas ações de transformação
-          e principalmente acompanhar a evolução de
-          cada uma delas.<br><br>
-
-          Afinal, não basta falar, temos que fazer ;)
-          Vamos?
-        </p>
+            Afinal, não basta falar, temos que fazer ;)
+            Vamos?
+          </p>
+       </div>
       </div>
     </div>
 
@@ -194,18 +187,44 @@ export default {
 
     .home-footer-wrapper {
       max-width: 1100px;
-      margin: 420px auto 0;
-      p {
-        font-size: 25px;
-        line-height: 29px;
-        color: #1304e5;
-        max-width: 640px;
+      margin: 320px auto 0;
+      direction: rtl;
+      overflow: auto;
+      height: 500px;
+      padding: 100px 0 0 40px;
+
+      &::-webkit-scrollbar {
+        width: 25px;
+        border-radius: 10px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background-color: transparent;
+        border: 2px solid #1304e5;
+        border-radius: 10px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: #1304e5;
+        border-radius: 10px;
+      }
+      
+      .home-footer-content {
+         direction: ltr;
+        p {
+          font-size: 25px;
+          line-height: 29px;
+          color: #1304e5;
+          max-width: 640px;
+        }
       }
     }
   }
 
   .footer-wrapper {
     background: #3212c5;
+    max-width: 2000px;
+    margin: 0 auto;
 
     .footer-content {
       max-width: 1020px;
@@ -263,7 +282,9 @@ export default {
 
       .home-footer-wrapper {
         max-width: 980px;
-        margin: 290px auto 0;
+        margin: 220px auto 0;
+        height: 332px;
+        padding: 20px 0 0 40px;
       }
     }
     .footer-wrapper {
@@ -276,13 +297,15 @@ export default {
   }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
   .onepage-wrapper {
     .home-wrapper {
-      height: 1320px;
+      height: 1220px;
       .home-footer-wrapper {
         max-width: 980px;
-        margin: 250px auto 0;
+        margin: 290px auto 0;
+        height: 332px;
+        padding: 20px 0 0 40px;
       }
     }
   }

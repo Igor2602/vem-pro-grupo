@@ -2,7 +2,7 @@
   <div class="people-component-wrapper">
     <div class="pillars-detail">
       <div class="row">
-        <div class="col-12 col-sm-4">
+        <div class="col-12 col-md-4">
           <div id="list-example" class="list-group mb-5">
             <a class="list-group-item list-group-item-action" href="#list-item-1">Pessoas e conexões potentes</a>
             <a class="list-group-item list-group-item-action" href="#list-item-2">Metas curto prazo</a>
@@ -14,7 +14,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-sm-8">
+        <div class="col-12 col-md-8">
           <div
             data-bs-spy="scroll"
             data-bs-target="#list-example"
@@ -52,19 +52,19 @@
               </div>
 
               <div class="row">
-                <div class="col-12 col-sm-4 pe-sm-0">
+                <div class="col-12 col-md-4 pe-md-0">
                   <div class="wrapper-content-secundary">
                     <p>Data início</p>
                     <span>01.07.21</span>
                   </div>
                 </div>
-                <div class="col-12 col-sm-4 px-sm-0">
+                <div class="col-12 col-md-4 px-md-0">
                   <div class="wrapper-content-secundary">
                     <p>Data limite</p>
                     <span>01.01.22</span>
                   </div>
                 </div>
-                <div class="col-12 col-sm-4 ps-sm-0">
+                <div class="col-12 col-md-4 ps-md-0">
                   <div class="wrapper-content-secundary">
                     <p class="mb-4">Meta alcançada?</p>
                     <div class="d-flex align-items-center">
@@ -94,19 +94,19 @@
               </div>
 
               <div class="row">
-                <div class="col-12 col-sm-4 pe-sm-0">
+                <div class="col-12 col-md-4 pe-md-0">
                   <div class="wrapper-content-secundary">
                     <p>Data início</p>
                     <span>01.07.21</span>
                   </div>
                 </div>
-                <div class="col-12 col-sm-4 px-sm-0">
+                <div class="col-12 col-md-4 px-md-0">
                   <div class="wrapper-content-secundary">
                     <p>Data limite</p>
                     <span>01.07.22</span>
                   </div>
                 </div>
-                <div class="col-12 col-sm-4 ps-sm-0">
+                <div class="col-12 col-md-4 ps-md-0">
                   <div class="wrapper-content-secundary">
                     <p class="mb-4">Meta alcançada?</p>
                     <div class="d-flex align-items-center">
@@ -136,19 +136,19 @@
               </div>
 
               <div class="row">
-                <div class="col-12 col-sm-4 pe-sm-0">
+                <div class="col-12 col-md-4 pe-md-0">
                   <div class="wrapper-content-secundary">
                     <p>Data início</p>
                     <span>01.07.21</span>
                   </div>
                 </div>
-                <div class="col-12 col-sm-4 px-sm-0">
+                <div class="col-12 col-md-4 px-md-0">
                   <div class="wrapper-content-secundary">
                     <p>Data limite</p>
                     <span>01.07.23</span>
                   </div>
                 </div>
-                <div class="col-12 col-sm-4 ps-sm-0">
+                <div class="col-12 col-md-4 ps-md-0">
                   <div class="wrapper-content-secundary">
                     <p class="mb-4">Meta alcançada?</p>
                     <div class="d-flex align-items-center">
@@ -184,7 +184,7 @@
               </div>
 
               <div class="row">
-                <div class="col-12 col-sm-4 pe-sm-0">
+                <div class="col-12 col-md-4 pe-md-0">
                   <div class="wrapper-content">
                     <p class="primary-text">Métricas de Comunicação: clareza,
                       engajamento e frequência
@@ -196,7 +196,7 @@
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-4 px-sm-0">
+                <div class="col-12 col-md-4 px-md-0">
                   <div class="wrapper-content">
                     <p class="primary-text">
                       Métricas de Educação: 360ª das principais
@@ -210,7 +210,7 @@
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-4 ps-sm-0">
+                <div class="col-12 col-md-4 ps-md-0">
                   <div class="wrapper-content">
                     <p class="primary-text">
                       Univoice (Engagement, Inclusion, Performance, wellbeing)
@@ -224,7 +224,7 @@
               </div>
 
               <div class="row">
-                <div class="col-12 col-sm-4 pe-sm-0">
+                <div class="col-12 col-md-4 pe-md-0">
                   <div class="wrapper-content">
                     <p class="primary-text">
                       Crescimento e Rentabilidade do Negócio (USG, UOM)
@@ -236,12 +236,12 @@
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-4 px-sm-0">
+                <div class="col-12 col-md-4 px-md-0">
                   <div class="wrapper-content">
                   </div>
                 </div>
 
-                <div class="col-12 col-sm-4 ps-sm-0">
+                <div class="col-12 col-md-4 ps-md-0">
                   <div class="wrapper-content">
                   </div>
                 </div>

@@ -19,6 +19,8 @@ export default {
   background: url('../assets/images/bg/bg-3.jpg') top center;
   height: 899px;
   padding : 100px 20px 0;
+  max-width: 2000px;
+  margin: 0 auto;
 
   .our-way-content {
     max-width: 1120px;
