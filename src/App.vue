@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link></router-link>
     </div>
     <router-view/>
   </div>
@@ -9,23 +9,21 @@
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Unilever_Shilling';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+@font-face {
+    font-family: 'Unilever_Shilling';
+    src: url('./assets/fonts/UnileverShilling/UnileverShilling.eot');
+    src: url('./assets/fonts/UnileverShilling/UnileverShilling.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/UnileverShilling/UnileverShilling.woff2') format('woff2'),
+        url('./assets/fonts/UnileverShilling/UnileverShilling.woff') format('woff'),
+        url('./assets/fonts/UnileverShilling/UnileverShilling.ttf') format('truetype'),
+        url('./assets/fonts/UnileverShilling/UnileverShilling.svg#UnileverShilling') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 </style>
